@@ -1,3 +1,4 @@
+from cotc_common.util._publisher import PublisherRank
 from cotc_common.util._style import (
     BG,
     FG,
@@ -23,5 +24,6 @@ __all__: list[str] = [
     "prettify",
     "print_err",
     "pprint",
+    "PublisherRank",
     "utc_now",
 ]
